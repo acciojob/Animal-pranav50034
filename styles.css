@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+.main{
+    background-color: #444444;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    width:350px;
+    height:380px;
+    align-items: center;
+    border-radius: 15px;
+}
+.head{
+    display:inline-block;
+    height:30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+	color:white;
+	font-size:20px
+}
+.picss{
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 320px;
+    width: 320px;
+
+}
+.pic{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+.pics{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    width:320px;
+}
